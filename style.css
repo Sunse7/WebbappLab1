@@ -1,3 +1,13 @@
 body {
-  background-image: url(https://tinyurl.com/tes2yco);
+  background-image: url(https://tinyurl.com/wmr83vj);
+  background-size: 100%;
+  text-align: center;
 }
+.product-list ul {
+  display: table;
+  margin: auto;
+}
+stretch it? crop for small size
+hitta en repeting tile bild ist -- har en som funkar bättre nu
+använd display på bilden som jag ska lägga till
+använd media queries på bilden?
