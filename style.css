@@ -1,12 +1,16 @@
 body {
-  background-image: url(https://tinyurl.com/wmr83vj);
-  background-size: 100%;
+  background-image: url(https://tinyurl.com/u8xtrqm);
+  background-size: 100% 100%;
   text-align: center;
+  color: #e6e6e6;
+  font-size: 110%;
 }
 .product-list ul {
   display: table;
   margin: auto;
+  text-align: left;
 }
+
 stretch it? crop for small size
 hitta en repeting tile bild ist -- har en som funkar bättre nu
 använd display på bilden som jag ska lägga till
