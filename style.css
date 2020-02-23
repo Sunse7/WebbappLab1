@@ -1,26 +1,37 @@
 body {
-  /*background-image: url(https://tinyurl.com/u8xtrqm);*/
   background-image: linear-gradient(to right, black, grey, black);
   background-size: 100% 100%;
   text-align: center;
-  color: #ffe6e6;
+  color: #d9d9d9;
   font-size: 110%;
   font-family: "lucida console";
 }
 h1 {
   font-size: 250%;
+  color: #1a1a1a;
+}
+h2 {
+  color: #4d4d4d;
+}
+.shadow {
+  text-shadow: 2px 2px 8px #e6e6e6;
 }
 .product-list ul {
   display: table;
   margin: auto;
   text-align: left;
 }
-@media only screen and (max-width: 600px) {
-   body {
-     color: red;
+footer {
+  text-align: right;
+  padding-top: 10%;
+}
+@media only screen and (max-width: 1000px) {
+   .product-list ul {
+     font-size: 150%;
    }
 }
-/*stretch it? crop for small size
+/*ffe6e6
+stretch it? crop for small size
 hitta en repeting tile bild ist -- har en som funkar bättre nu
 använd display på bilden som jag ska lägga till
 använd media queries på bilden?
