@@ -1,17 +1,27 @@
 body {
-  background-image: url(https://tinyurl.com/u8xtrqm);
+  /*background-image: url(https://tinyurl.com/u8xtrqm);*/
+  background-image: linear-gradient(to right, black, grey, black);
   background-size: 100% 100%;
   text-align: center;
-  color: #e6e6e6;
+  color: #ffe6e6;
   font-size: 110%;
+  font-family: "lucida console";
+}
+h1 {
+  font-size: 250%;
 }
 .product-list ul {
   display: table;
   margin: auto;
   text-align: left;
 }
-
-stretch it? crop for small size
+@media only screen and (max-width: 600px) {
+   body {
+     color: red;
+   }
+}
+/*stretch it? crop for small size
 hitta en repeting tile bild ist -- har en som funkar bättre nu
 använd display på bilden som jag ska lägga till
 använd media queries på bilden?
+media querie på listans font size*/
