@@ -1,6 +1,5 @@
 body {
-  background-image: linear-gradient(to right, black, grey, black);
-  background-size: 100% 100%;
+  background-image: linear-gradient(to right, #000000, #003300, #000000);
   text-align: center;
   color: #d9d9d9;
   font-size: 110%;
@@ -13,8 +12,15 @@ h1 {
 h2 {
   color: #4d4d4d;
 }
+img {
+  width: 600px;
+  height: 388px;
+}
 .shadow {
-  text-shadow: 2px 2px 8px #e6e6e6;
+  text-shadow: 2px 2px 4px #e6e6e6;
+}
+.padding {
+  padding-top: 5%;
 }
 .product-list ul {
   display: table;
@@ -23,16 +29,21 @@ h2 {
 }
 footer {
   text-align: right;
+  color: #a6a6a6;
   padding-top: 10%;
 }
-@media only screen and (max-width: 1000px) {
-   .product-list ul {
-     font-size: 150%;
-   }
+@media only screen and (max-widht: 1000px) {
+  h2 {
+    font-size: 150%;
+  }
 }
-/*ffe6e6
-stretch it? crop for small size
-hitta en repeting tile bild ist -- har en som funkar bättre nu
-använd display på bilden som jag ska lägga till
-använd media queries på bilden?
-media querie på listans font size*/
+@media only screen and (max-width: 1000px) {
+  .product-list ul {
+     font-size: 150%;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  footer {
+    font-size: 70%;
+  }
+}
