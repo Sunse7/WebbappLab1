@@ -36,13 +36,9 @@ footer {
   h2 {
     font-size: 150%;
   }
-}
-@media only screen and (max-width: 1000px) {
   .product-list ul {
-     font-size: 150%;
+    font-size: 150%;
   }
-}
-@media only screen and (max-width: 1000px) {
   footer {
     font-size: 70%;
   }
